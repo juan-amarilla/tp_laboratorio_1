@@ -1,0 +1,14 @@
+/*amarilla juan sebastian 1B
+ *
+ *
+ *
+ *
+ */
+
+#ifndef OPERACIONES_H_
+#define OPERACIONES_H_
+#include <stdio.h>
+
+int operaciones();
+
+#endif /* OPERACIONES_H_ */

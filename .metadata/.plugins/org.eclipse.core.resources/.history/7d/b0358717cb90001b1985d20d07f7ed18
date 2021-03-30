@@ -1,0 +1,64 @@
+/*amarilla juan sebastian 1B
+ *
+ *
+ *
+ *
+ */
+
+float operacionSuma(float numero1, float numero2)
+{
+	float resultado1;
+
+	resultado1 = numero1 + numero2;
+
+	return resultado1;
+}
+
+float operacionResta(float numero3, float numero4)
+{
+	float resultado2;
+
+	resultado2 = numero3 - numero4;
+
+	return resultado2;
+}
+
+float operacionDivision(int numero5, int numero6)
+{
+	int resultado3;
+
+	resultado3 = numero5 / numero6;
+
+	return resultado3;
+}
+
+float operacionMultiplicacion(int numero7, int numero8)
+{
+	int resultado4;
+
+	resultado4 = numero7 * numero8;
+
+	return resultado4;
+}
+
+float operacionFactorial1()
+{
+	   int i;
+	   int numero;
+	   int factorial;
+
+	   factorial=1;
+
+
+	   printf("ingrese un numero: \n");
+	   scanf("%d", &numero);
+
+	   for (i=numero;i>1;i--) {
+
+		   factorial = factorial * i;
+	   }
+
+	   printf("el factorial del numero %d es: %d", numero, factorial);
+
+	   return 0;
+}
